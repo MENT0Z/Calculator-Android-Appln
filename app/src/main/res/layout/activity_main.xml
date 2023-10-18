@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:padding="6dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#CDC8B3B3"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:gravity="end"
+        android:id="@+id/procedure"
+        android:layout_marginBottom="25dp"
+        android:background="@color/white"
+        />
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+
+        android:textColor="@color/black"
+        android:textSize="100sp"
+        android:gravity="end"
+        android:id="@+id/resultt"
+        android:layout_marginBottom="25dp"
+        android:background="@color/white"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:backgroundTint="#0BCFE8"
+            android:text="AC" />
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="6dp"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:backgroundTint="#0BCFE8"
+            android:text="(" />
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:backgroundTint="#0BCFE8"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text=")" />
+
+        <Button
+            android:id="@+id/btn03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:backgroundTint="#F44B15"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="/" />
+
+    </LinearLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4">
+        <Button
+            android:id="@+id/btn1"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="1"/>
+        <Button
+            android:layout_marginLeft="6dp"
+            android:id="@+id/btn2"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="2"/>
+        <Button
+            android:layout_marginLeft="6dp"
+            android:id="@+id/btn3"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="3"/>
+        <Button
+
+            android:layout_gravity="end"
+            android:id="@+id/btn4"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:backgroundTint="#F44B15"
+            android:text="+"/>
+        <Button
+            android:id="@+id/btn5"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="4"/>
+        <Button
+            android:layout_marginLeft="6dp"
+            android:id="@+id/btn6"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="5"/>
+        <Button
+            android:layout_marginLeft="6dp"
+            android:id="@+id/btn7"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="6"/>
+        <Button
+            android:layout_gravity="end"
+            android:id="@+id/btn8"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:backgroundTint="#F44B15"
+            android:text="-"/>
+        <Button
+            android:id="@+id/btn9"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="7"/>
+        <Button
+            android:layout_marginLeft="6dp"
+            android:id="@+id/btn10"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="8"/>
+        <Button
+            android:layout_marginLeft="6dp"
+            android:id="@+id/btn11"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="9"/>
+        <Button
+            android:layout_gravity="end"
+            android:id="@+id/btn12"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:backgroundTint="#F44B15"
+            android:text="*"/>
+        <Button
+            android:id="@+id/btn13"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="."/>
+        <Button
+            android:layout_marginLeft="6dp"
+            android:id="@+id/btn14"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="0"/>
+        <Button
+            android:layout_marginLeft="6dp"
+            android:id="@+id/btn15"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:text="C"/>
+        <Button
+            android:layout_gravity="end"
+            android:id="@+id/btn16"
+            android:contentDescription="@string/Cntd_dscrptn"
+            android:backgroundTint="#E3185F"
+            android:text="="/>
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+
+
+
+</LinearLayout>
+
